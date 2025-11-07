@@ -5,25 +5,32 @@ date: 2025-11-06 12:00:00 +1000
 categories: hardware
 ---
 
-- Connections -
+**Connections**
 
-Many different connection types now: Mini USB, Micro USB, USB type-A, Apple Lightning (not USB), USB C.
+Many different connection types now:
+
+- Mini USB
+- Micro USB
+- USB type-A
+- Apple Lightning (not USB)
+- USB C.
 
 USB C is currently the standard.
--24 pin connection
--Orientation agnostic
--Acts as USB 2.0/3.0/3.1/4
--Transmits different signals (DisplayPort, HDMI, Thunderbolt)
--Used for charging, data transfer, authentication, etc.
+
+- 24 pin connection
+- Orientation agnostic
+- Acts as USB 2.0/3.0/3.1/4
+- Transmits different signals (DisplayPort, HDMI, Thunderbolt)
+- Used for charging, data transfer, authentication, etc.
 
 Bluetooth (PAN) - High speed, short range.
 
-NFC - Small data volume, very short range (few cm)
+NFC - Small data volume, very short range (few cm).
 
 Most modern phones with mobile data support Wifi hotspot/tethering to other devices (depends on provider).
 
 
-- Accessories -
+**Accessories**
 
 Examples of accessories include:
 
@@ -40,7 +47,7 @@ Examples of accessories include:
 - External drawing pad
 
 
-- Mobile Device Networks -
+**Mobile Device Networks**
 
 Phone/Cell Networks:
 
@@ -62,7 +69,7 @@ LTE Advanced
 5G Very low latency, high , much faster (2020)
 
 
-SIM (Subscriber Identity Module):
+**SIM (Subscriber Identity Module)**
 
 Identifies you on mobile network.
 Has a SIM ID and phone number attached to it, regardless of the device it's in.
@@ -74,15 +81,15 @@ Can be changed through software.
 
 Some devices are dual-SIM (or maybe more).
 
-- GPS -
+**GPS**
 
-Created by US Defence Dep.
-Over 30 satellites in orbit.
-Needs at least 4 satellites for accurate position.
-Uses timing differences in signal bounces to infer location. '3D sphereical quadangulation'.
-Geotracking, mobile tower triangulation, etc. can also help pinpoint your location.
+- Created by US Defence Dep.
+- Over 30 satellites in orbit.
+- Needs at least 4 satellites for accurate position.
+- Uses timing differences in signal bounces to infer location. '3D sphereical quadangulation'.
+- Geotracking, mobile tower triangulation, etc. can also help pinpoint your location.
 
-- WiFI -
+**WiFi**
 
 802 standards developed by IEEE.
 802.11 defines WiFi standards.
@@ -91,7 +98,7 @@ Requires local access point.
 Often can make calls over VoIP through WiFi if 4G/5G mobile data is unavailable.
 
 
-- Device Management -
+**Device Managemen**
 
 MDM (Mobile Device Management)
 
@@ -100,17 +107,16 @@ Requires special software.
 Set polices, push updates, configure settings, force security policies like PIN lock or 2FA, ban apps, partition the phone to separate personal data and company data.
 
 You can set what data is synchonised and by what method.
-- e.g. only sync on WiFi not cellular or only sync at certain times of day to reduce costs and bandwidth use. 
+e.g. only sync on WiFi not cellular or only sync at certain times of day to reduce costs and bandwidth use. 
 
 
 Control company data on a personal device with:
 
-- BYOD (Bring Your Own Device)
+- BYOD (Bring Your Own Device).
 
-- COPE (Corporate Owned, Personally Enabled)
+- COPE (Corporate Owned, Personally Enabled).
 
-- CYOD (Choose Your Own Device)
-Similar to COPE but user chooses what device they want.
+- CYOD (Choose Your Own Device). Similar to COPE but user chooses what device they want.
 
 
 
