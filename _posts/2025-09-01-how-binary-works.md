@@ -4,7 +4,7 @@ title: "How Binary Works"
 date: 2025-09-01 12:00:00 +1000
 categories: networking
 ---
-**BINARY**
+**Binary**
 
 
 Binary is a base-2 numbering system that represents all values using only two symbols: 0 and 1. It is the 'language' spoken by computers.
