@@ -7,7 +7,8 @@ categories: [networking, hardware]
 **Network Cables and Ethernet**
 
 Ethernet is a protocol and family of standards defined by the IEEE (Institute of Electrical and Electronics Engineers). It defines how signals are sent and processsed in a network.
-It can run over *twisted pair, coaxial or fibre*. TP is by far the most common and coaxial is essentially obsolete.
+It can run over *twisted pair, coaxial or fibre*. TP is by far the most common in home/office settings and coaxial is essentially obsolete.
+
 
 *Twisted Pair (TP)*
 - Copper wiring
@@ -16,17 +17,17 @@ It can run over *twisted pair, coaxial or fibre*. TP is by far the most common a
 - Connectors: RJ45
 - Speeds: 10 Mbps - 10Gbps (10Gb possible over Cat6+)
 
+*Coaxial (coax)*
+- Copper wiring
+- Early Ethernet standards used coax. Largely obsolete for Ethernet now.
+- Speeds: 10 Mbps
+
 *Fibre*
 - Pulses of light
 - Used in data centres, long-distance connections and high-speed data
 - Speeds: 100 Mbps - 400Gbps+
 - Connectors: LC, SC, ST
 - Immune to EMI
-
-*Coaxial*
-- Copper wiring
-- Early Ethernet standards used coax. Largely obsolete for Ethernet now.
-- Speeds: 10 Mbps
 
 
 **Twisted pair copper cabling**
@@ -52,7 +53,7 @@ These twisted pair cables can be shielded or unshielded. The shielding protects 
 - **UTP (Unshielded Twisted Pair)** - Most common TP cabling.
 - **STP (Shielded Twisted Pair)** - Requires the cable to be grounded.
 
-AOther abreviations (printed on cable jacket):
+Other abreviations (printed on cable jacket):
 
 - (Overall cable) / (Individual pairs)TP
 
@@ -101,8 +102,9 @@ When sending signals through copper cables, the cable itself has to be manufactu
 - 1 Gigabit Ethernet is still pretty much the standard in homes and offices.
 - Speed: 1Gbps (1,000 Mbps)
 - IEEE Shorthand: **1000BASE-T** (*1000*Mbps-*BASE*BAND-*T*wisted pair)
-- Minimum cable category: **Cat. 5e** (Cat. 5 is older obsolete standard)
+- Minimum cable category: **Cat5e** (Cat5 is older obsolete standard)
 - Max cable distance: 100m
+
 
 - 10 Gigabit Ethernet is more common in enterprise backbones, data centres and server rooms.
 - Speed: 10Gpbs (10,000 Mbps)
@@ -115,6 +117,39 @@ Homes and offices will typically use speeds of 1Gbps or 10Gbps.
 - Cat8 is used for high speeds (25 - 40 Gbps) over short distances (max 30m) and so is typically only found connecting components in data centres or server rooms.
 
 
+**TP Wire Colour Standards - 568A and 568B**
+
+- The wires in twisted pair copper cabling are colour coded.
+- The two standards are *T568A* and *T568B*. These are international.
+- T568A is newer and recommended for new installations in Australia.
+- They do exactly the same job however, so it doesn't particularly matter as long as the wiring scheme is consistent throughout a particular system.
+- When you terminate an Ethernet cable, you must ensure the colours are punched into the correct positions in the connector.
+- Jacks and connectors sometimes have the A/B scheme printed on them.
+- Both ends of the cable should follow the same standard.
+
+<img src="\images\t568a-t568b-wiring-diagram.png" alt="A diagram showing t568A and t568B wire colour schemes.">
+
+As can be seen in the above diagram, the blue (1) and brown (4) positions are the same, while only the orange and green positions are altered.
+
+- Cross-over cables with different ends exist, but are unnecessary these days.
 
 
+**Fibre Optics**
 
+Instead of sending a signal down a copper wire, we can send pulses of light through fibre optic wires. This is much faster (speed of light) and is not affected by radio interference.
+
+- A light source at one end (LED or laser) fires light through a narrow high reflective inner core which contains the photons.
+- Surrounding the high reflective inner core is a low reflective cladding.
+- Surrounding all that is a buffer coating for protection.
+
+There are two main types of fibre cables:
+
+*Multi-mode Fibre*
+- Large inner code means the light can bounce along multiple modes or different paths. 
+- Short-range (max 2km)
+- Short-range means cheaper light source - LED
+
+*Single-mode Fibre*
+- Narrow core means the light takes one mode or path down the centre.
+- Long-range (~100km before regenerating signal)
+- Long-range means more expensive light source - Laser
