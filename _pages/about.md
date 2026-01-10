@@ -3,13 +3,11 @@ layout: page
 title: About
 permalink: /about/
 ---
-G'day! My name is Ash.
+G'day, I'm Ash.
 
-I am studying to pass my CompTIA A+ certification.
+I'm currently studying toward the CompTIA A+ certification and building practical IT skills through hands-on learning. This site serves as both a learning log and a technical exercise, where I document the concepts I'm studying and the practical work I'm completing along the way.
 
-Here I am logging all my learning and practicing deploying a web page through GitPages using the command line.
+The content ranges from short reference notes to more detailed explanations and write-ups covering basic hardware, operating systems, and other IT fundamentals. The site itself is deployed using a custom Jekyll theme hosted through GitHub Pages,  and managed via the command-line as part of my learning process.
 
-Some topics are quick notes, some are a bit more of an in-depth explanation. You can browse posts by category.
-
-Thanks for reading!
+Posts are organised by category for easy browsing. Thanks for taking the time to read!
 
